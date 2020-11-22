@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Page</title>
+<meta name="generator" content="WYSIWYG Web Builder 15 - http://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<link href="css/coffe_2.css" rel="stylesheet">
+<link href="css/product.css" rel="stylesheet">
+<script src="css/jquery-1.12.4.min.js"></script>
+<script src="css/wb.overlay.min.js"></script>
+<script src="css/affix.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $("#wb_OverlayMenu1").affix({offset:{top: $("#wb_OverlayMenu1").offset().top}});
+   var $overlaymenu = $('#OverlayMenu1-overlay');
+   $overlaymenu.overlay({'hideTransition':true});
+   $('#OverlayMenu1').on('click', function(e)
+   {
+      $.overlay.show($overlaymenu);
+      return false;
+   });
+});
+</script>
+</head>
+<body>
+<div id="wb_Image1">
+<img src="images/main 2.png" id="Image1" alt=""></div>
+<div id="wb_Image2">
+<a href="./order1.html"><img src="images/pngegg.png" id="Image2" alt=""></a><div id="Image2-overlay">Click For Order</div>
+</div>
+<div id="wb_OverlayMenu1">
+<a href="#" id="OverlayMenu1">
+<span class="line"></span>
+<span class="line">
+</span><span class="line"></span>
+</a>
+</div>
+<div id="wb_Image3">
+<img src="images/produk.png" id="Image3" alt=""><div id="Image3-overlay">Click For Order</div>
+</div>
+<div id="wb_Image4">
+<img src="images/name.png" id="Image4" alt=""></div>
+<div id="OverlayMenu1-overlay">
+<div class="OverlayMenu1">
+<ul class="drilldown-menu" role="menu">
+<li><a role="menuitem" href="./index.html"><i class="fa fa-home overlay-icon"></i>Home</a></li>
+<li><a role="menuitem" href="./product.html"><i class="fa fa-shopping-bag overlay-icon"></i>Product</a></li>
+<li><a role="menuitem" href="./about.html"><i class="fa fa-user overlay-icon"></i>About</a></li>
+   </ul>
+</div>
+<a class="close-button" id="OverlayMenu1-close" href="#" role="button" aria-hidden="true"><span></span></a>
+</div>
+</body>
+</html>

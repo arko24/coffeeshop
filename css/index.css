@@ -1,0 +1,305 @@
+div#container
+{
+   width: 1286px;
+   position: relative;
+   margin: 0 auto 0 auto;
+   text-align: left;
+}
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   text-align: center;
+}
+#preloader
+{
+   background: #FFFFFF url("images/turning-dots.gif") no-repeat center center;
+   bottom: 0;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   z-index: 99999;
+}
+#wb_Image1
+{
+   vertical-align: top;
+}
+#Image1
+{
+   border: 0px solid #000000;
+   padding: 0;
+   -webkit-animation: transform-bounce-in 2000ms linear 0ms 1 normal both;
+   -moz-animation: transform-bounce-in 2000ms linear 0ms 1 normal both;
+   animation: transform-bounce-in 2000ms linear 0ms 1 normal both;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Image1-overlay
+{
+   display: none;
+   position: absolute;
+   pointer-events: none;
+   top: 50%;
+   left: 50%;
+   width: 100%;
+   transform: translate(-50%,-50%);
+   color: #000000;
+   opacity: 0.31;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   padding: 80px 0px 0px 0px;
+   text-align: center;
+}
+#wb_Image1:hover #Image1-overlay
+{
+   display: block;
+}
+#wb_Image3
+{
+   vertical-align: top;
+}
+#Image3
+{
+   border: 0px solid #000000;
+   padding: 0;
+   -webkit-animation: transform-bounce-in-left 2000ms linear 0ms 1 normal both;
+   -moz-animation: transform-bounce-in-left 2000ms linear 0ms 1 normal both;
+   animation: transform-bounce-in-left 2000ms linear 0ms 1 normal both;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Image3-overlay
+{
+   display: none;
+   position: absolute;
+   pointer-events: none;
+   top: 50%;
+   left: 50%;
+   width: 100%;
+   transform: translate(-50%,-50%);
+   color: #D3D3D3;
+   opacity: 0.78;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 16px;
+   font-style: italic;
+   padding: 0;
+   text-align: center;
+}
+#wb_Image3:hover #Image3-overlay
+{
+   display: block;
+}
+#wb_Image2
+{
+   vertical-align: top;
+}
+#Image2
+{
+   border: 0px solid #000000;
+   padding: 0;
+   -webkit-animation: transform-bounce-in-right 2000ms linear 0ms 1 normal both;
+   -moz-animation: transform-bounce-in-right 2000ms linear 0ms 1 normal both;
+   animation: transform-bounce-in-right 2000ms linear 0ms 1 normal both;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Image2-overlay
+{
+   display: none;
+   position: absolute;
+   pointer-events: none;
+   top: 50%;
+   left: 50%;
+   width: 100%;
+   transform: translate(-50%,-50%);
+   color: #D3D3D3;
+   opacity: 0.78;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 16px;
+   font-style: italic;
+   padding: 45px 0px 0px 0px;
+   text-align: center;
+}
+#wb_Image2:hover #Image2-overlay
+{
+   display: block;
+}
+#wb_Image4
+{
+   vertical-align: top;
+}
+#Image4
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Image1
+{
+   position: absolute;
+   left: 490px;
+   top: 227px;
+   width: 379px;
+   height: 351px;
+   z-index: 0;
+}
+#wb_Image2
+{
+   position: absolute;
+   left: 819px;
+   top: 342px;
+   width: 215px;
+   height: 166px;
+   z-index: 2;
+}
+#wb_Image3
+{
+   position: absolute;
+   left: 269px;
+   top: 351px;
+   width: 273px;
+   height: 200px;
+   z-index: 1;
+}
+#wb_Image4
+{
+   position: absolute;
+   left: 502px;
+   top: 14px;
+   width: 367px;
+   height: 176px;
+   z-index: 3;
+}
+@media only screen and (max-width: 1280px) and (orientation: landscape)
+{
+div#container
+{
+   width: 1280px;
+}
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_Image1
+{
+   left: 496px;
+   top: 223px;
+   width: 379px;
+   height: 351px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_Image3
+{
+   left: 269px;
+   top: 351px;
+   width: 273px;
+   height: 200px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_Image2
+{
+   left: 819px;
+   top: 342px;
+   width: 215px;
+   height: 166px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_Image4
+{
+   left: 450px;
+   top: 37px;
+   width: 451px;
+   height: 168px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+}
+@media only screen and (max-width: 980px) and (orientation: portrait)
+{
+div#container
+{
+   width: 607px;
+}
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_Image1
+{
+   left: 146px;
+   top: 185px;
+   width: 181px;
+   height: 193px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_Image3
+{
+   left: 37px;
+   top: 263px;
+   width: 129px;
+   height: 97px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_Image2
+{
+   left: 293px;
+   top: 252px;
+   width: 140px;
+   height: 82px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_Image4
+{
+   left: 116px;
+   top: 50px;
+   width: 240px;
+   height: 111px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+}
