@@ -1,6 +1,8 @@
 body
 {
    background-color: #FFFFFF;
+   background-image: url(images/product_bkgrnd.png);
+   background-repeat: repeat-x;
    color: #000000;
    font-family: Arial;
    font-weight: normal;
@@ -48,11 +50,11 @@ body
    display: none;
    position: absolute;
    pointer-events: none;
-   top: 50%;
+   bottom: 0px;
    left: 50%;
    width: 100%;
-   transform: translate(-50%,-50%);
-   color: #C0C0C0;
+   transform: translate(-50%,0);
+   color: #000000;
    opacity: 0.78;
    font-family: Arial;
    font-weight: normal;
@@ -297,10 +299,10 @@ body
    display: none;
    position: absolute;
    pointer-events: none;
-   top: 50%;
+   bottom: 0px;
    left: 50%;
    width: 100%;
-   transform: translate(-50%,-50%);
+   transform: translate(-50%,0);
    color: #000000;
    opacity: 0.78;
    font-family: Arial;
@@ -342,8 +344,8 @@ body
 #wb_Image1
 {
    position: absolute;
-   left: 30px;
-   top: 4px;
+   left: 270px;
+   top: 280px;
    width: 438px;
    height: 144px;
    z-index: 0;
@@ -351,8 +353,8 @@ body
 #wb_Image2
 {
    position: absolute;
-   left: 147px;
-   top: 148px;
+   left: 182px;
+   top: 472px;
    width: 187px;
    height: 166px;
    z-index: 1;
@@ -360,17 +362,17 @@ body
 #wb_Image3
 {
    position: absolute;
-   left: 793px;
-   top: 401px;
-   width: 340px;
-   height: 309px;
+   left: 628px;
+   top: 453px;
+   width: 197px;
+   height: 205px;
    z-index: 3;
 }
 #wb_Image4
 {
    position: absolute;
-   left: 418px;
-   top: 11px;
+   left: 235px;
+   top: 0px;
    width: 508px;
    height: 270px;
    z-index: 4;
@@ -380,7 +382,8 @@ body
 body
 {
    background-color: #FFFFFF;
-   background-image: none;
+   background-image: url(images/product_bkgrnd1280.png);
+   background-repeat: repeat-x;
 }
 #wb_Image1
 {
@@ -395,10 +398,10 @@ body
 }
 #wb_Image2
 {
-   left: 122px;
-   top: 521px;
-   width: 485px;
-   height: 453px;
+   left: 292px;
+   top: 515px;
+   width: 240px;
+   height: 311px;
    visibility: visible;
    display: inline;
    margin: 0;
@@ -447,9 +450,9 @@ body
 }
 #wb_Image3
 {
-   left: 746px;
-   top: 596px;
-   width: 340px;
+   left: 797px;
+   top: 516px;
+   width: 256px;
    height: 309px;
    visibility: visible;
    display: inline;
@@ -473,13 +476,14 @@ body
 body
 {
    background-color: #FFFFFF;
-   background-image: none;
+   background-image: url(images/product_bkgrnd457.png);
+   background-repeat: repeat-x;
 }
 #wb_Image1
 {
    left: 38px;
    top: 116px;
-   width: 380px;
+   width: 332px;
    height: 199px;
    visibility: visible;
    display: inline;
@@ -488,10 +492,10 @@ body
 }
 #wb_Image2
 {
-   left: 130px;
-   top: 294px;
-   width: 208px;
-   height: 206px;
+   left: 141px;
+   top: 334px;
+   width: 127px;
+   height: 166px;
    visibility: visible;
    display: inline;
    margin: 0;
@@ -540,10 +544,10 @@ body
 }
 #wb_Image3
 {
-   left: 171px;
-   top: 517px;
+   left: 141px;
+   top: 520px;
    width: 126px;
-   height: 131px;
+   height: 162px;
    visibility: visible;
    display: inline;
    margin: 0;
@@ -551,8 +555,8 @@ body
 }
 #wb_Image4
 {
-   left: 105px;
-   top: 19px;
+   left: 81px;
+   top: 9px;
    width: 246px;
    height: 117px;
    visibility: visible;
