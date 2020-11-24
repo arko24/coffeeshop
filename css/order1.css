@@ -332,8 +332,8 @@ body
    color: #000000;
    font-family: Arial;
    font-weight: normal;
-   font-size: 8px;
-   line-height: 9px;
+   font-size: 13px;
+   line-height: 16px;
 }
 #wb_Text2 p, #wb_Text2 ul
 {
@@ -426,7 +426,7 @@ body
    left: 9px;
    top: 418px;
    width: 137px;
-   height: 98px;
+   height: 74px;
    z-index: 6;
 }
 @media only screen and (min-width: 1280px) and (orientation: landscape)
@@ -541,7 +541,7 @@ body
    left: 246px;
    top: 595px;
    width: 339px;
-   height: 64px;
+   height: 94px;
    visibility: visible;
    display: inline;
    background-color: transparent;
@@ -555,9 +555,9 @@ body
 #wb_Image3
 {
    left: 246px;
-   top: 516px;
-   width: 95px;
-   height: 93px;
+   top: 468px;
+   width: 151px;
+   height: 141px;
    visibility: visible;
    display: inline;
    margin: 0;
@@ -673,10 +673,10 @@ body
 }
 #wb_Text2
 {
-   left: 9px;
-   top: 317px;
-   width: 145px;
-   height: 74px;
+   left: 30px;
+   top: 553px;
+   width: 298px;
+   height: 94px;
    visibility: visible;
    display: inline;
    background-color: transparent;
@@ -689,8 +689,8 @@ body
 }
 #wb_Image3
 {
-   left: 17px;
-   top: 278px;
+   left: 165px;
+   top: 495px;
    width: 51px;
    height: 48px;
    visibility: visible;
